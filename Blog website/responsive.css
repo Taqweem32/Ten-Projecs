@@ -1,0 +1,152 @@
+@media (max-width: 578px) {
+  nav ul {
+    display: none;
+  }
+  nav h2 {
+    text-align: center;
+  }
+  .hero-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .hero-text {
+    width: 100%;
+    text-align: center;
+    h2 {
+      font-size: 13vw;
+    }
+
+    p {
+      font-size: 5vw;
+    }
+  }
+  .hero-content #hero-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* First section start */
+  .first-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0px 1px 10px 1px rgb(201, 199, 199);
+    border-radius: 2px;
+  }
+  .text {
+    width: 100%;
+    border: none;
+    padding: 0;
+    text-align: center;
+
+    p {
+      font-size: 19px;
+    }
+    p span {
+      font-weight: bold;
+    }
+  }
+  #banner {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /* second section start */
+
+  .second-inner-second {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+    box-shadow: 0px 2px 8px -3px rgb(7, 14, 7);
+  }
+
+  /* third section start */
+  .third-section {
+    margin-top: 50px;
+  }
+  .third-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .third-text {
+    padding: 0;
+    width: 50%;
+
+    h2 {
+      font-size: 7vw;
+    }
+  }
+  #third-img {
+    display: none;
+  }
+  #third-img-for-mob {
+    display: block;
+    width: 50%;
+  }
+  #p-span {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+  .fourth-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* POST PAGE */
+  .nav-bar nav ul {
+    display: none;
+    background-color: red;
+  }
+  .inner-container {
+    width: 90%;
+    img {
+      width: 100%;
+      height: 300px;
+    }
+    .content {
+      h1 {
+        text-align: center;
+        font-size: 8vw;
+      }
+      h4 {
+        font-size: 4vw;
+      }
+    }
+    h4 i {
+      font-size: 5vw;
+    }
+    h2 {
+      font-size: 8vw;
+    }
+  }
+  .inner-footer {
+    padding: 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    h6 {
+      font-size: 4vw;
+      text-align: center;
+    }
+    .socil {
+      i {
+        font-size: 7vw;
+        margin-top: 20px;
+      }
+    }
+  }
+}

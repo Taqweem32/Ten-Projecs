@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-image: url(developer.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.hero-section {
+  width: 50%;
+  text-align: center;
+  margin-top: 40px;
+}
+.heading-1 {
+  font-size: 60px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.heading-1 span {
+  font-size: 25px;
+  color: rgb(184, 180, 180);
+}
+/* first complet */
+.second-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 32, 34);
+}
+.heading-and-span {
+  width: 70%;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  p {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+}
+.heading-and-span span {
+  font-size: 90px;
+  text-transform: uppercase;
+}
+
+/* Second complet */
+
+.third-section {
+  margin-top: 40px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 370px;
+}
+.box-same {
+  height: 100%;
+  width: 27%;
+  box-shadow: 6px 17px 20px #91919185;
+  border-radius: 10px;
+}
+
+.box-same img {
+  width: 100%;
+}
+.box-same h3 {
+  font-weight: 100;
+}
+.box-same h3,
+p {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+/* third complete */
+.flex-container {
+  display: flex;
+  width: 100%;
+}
+.about-me {
+  background-color: #515603;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.left {
+  width: 70%;
+  color: white;
+
+  h2 {
+    font-size: 60px;
+    font-weight: 200;
+  }
+}
+
+.contact-me {
+  background-color: #722300;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.right {
+  width: 70%;
+  color: white;
+
+  h2 {
+    font-size: 60px;
+    font-weight: 200;
+  }
+}
+.developer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
