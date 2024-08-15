@@ -45,7 +45,7 @@
   /* second section */
 
   .second-inner {
-    width: 95%;
+    width: 60%;
     display: grid;
     grid-template-columns: auto;
 
