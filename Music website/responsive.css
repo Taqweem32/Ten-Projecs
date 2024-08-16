@@ -1,0 +1,110 @@
+@media (max-width: 578px) {
+  nav ul {
+    display: none;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 0 0;
+  }
+  .hero-section {
+    height: 100%;
+  }
+  .hero-content {
+    width: 90%;
+    h1 {
+      font-size: 15vw;
+      padding-top: 100px;
+    }
+    #first-p {
+      font-size: 5vw;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    #second-p {
+      font-size: 4vw;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+  .music-setion {
+    width: 90%; /* 80 */
+    height: 100vh;
+    h4 {
+      font-size: 6vw;
+      margin: 0;
+    }
+  }
+  .music-setion p:nth-of-type(1) {
+    font-size: 4vw;
+    font-weight: 600;
+  }
+  .music-setion p:nth-of-type(2) {
+    font-size: 4vw;
+  }
+  /* third section */
+  .movie-section {
+    margin-top: 200px;
+    width: 90%;
+  }
+  @media (max-width: 350px) {
+    .movie-section {
+      margin-top: 100px;
+    }
+  }
+  .movie-section {
+    h3 {
+      font-size: 5vw;
+    }
+    p {
+      font-size: 4vw;
+    }
+  }
+  .entertainment {
+    width: 90%;
+    h2 {
+      font-size: 5vw;
+    }
+    p {
+      font-size: 4vw;
+    }
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    .img {
+      width: 90%;
+    }
+  }
+  .card-content {
+    width: 90%;
+    text-align: center;
+  }
+
+  /* Last section */
+  .footer-scetion {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .shop-learn {
+    height: 200px;
+    width: 90%;
+    margin: 20px 0 0 0;
+    text-align: center;
+    margin-bottom: 10px;
+    h2 {
+      font-size: 4vw;
+      text-align: center;
+    }
+  }
+  .shop-learn div {
+    width: 100%;
+    text-align: center;
+  }
+}

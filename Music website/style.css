@@ -8,37 +8,32 @@ body {
   line-height: 1.7;
 }
 
-.container {
-  display: flex;
-  width: 100%;
-}
-
 nav {
   display: flex;
-  background-color: aqua;
-  align-items: center;
+  /* align-items: center; */
   width: 100%;
-  height: 50px;
+  height: 60px;
   color: white;
   background-color: #270082;
   position: fixed;
   top: 0;
 }
 .logo {
-  width: 50%;
-  margin-left: 70px;
-  font-size: 20px;
+  padding-left: 70px;
+  font-size: 25px;
   font-weight: bold;
+  padding-top: 10px;
 }
 
 ul {
-  width: 50%;
+  width: 100%;
 
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   list-style: none;
-  gap: 30px;
+  gap: 50px;
+  padding-right: 50px;
 }
 ul a {
   text-decoration: none;
@@ -53,7 +48,7 @@ ul a:hover {
 
 .hero-section {
   background-image: url(hero_image.png);
-  height: 1000px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -94,14 +89,14 @@ ul a:hover {
   width: 70%;
 }
 .music-setion h2 {
-  padding: 40px 0 20px 0;
+  padding: 40px 0 10px 0;
   font-size: 40px;
   font-weight: 600;
 }
 
 .music-setion h4 {
   font-size: 25px;
-  font-family: Arial;
+  /* font-family: Arial; */
 }
 .music-setion p:nth-of-type(1) {
   padding-top: 20px;
@@ -123,6 +118,9 @@ ul a:hover {
   margin-top: 30px;
   font-family: Arial;
   margin-bottom: 50px;
+}
+.music-setion img {
+  width: 100%;
 }
 
 /* third-section */
@@ -153,6 +151,9 @@ ul a:hover {
   border: none;
   color: white;
   margin-bottom: 50px;
+}
+.movie-section img {
+  width: 100%;
 }
 
 /* <!-- Fourth section --> */
@@ -196,6 +197,9 @@ ul a:hover {
 }
 .img {
   width: 50%;
+  img {
+    width: 100%;
+  }
 }
 
 .card-content {
@@ -246,7 +250,7 @@ ul a:hover {
   font-size: 20px;
 }
 .shop-learn div {
-  width: 100%;
+  width: 50%;
   border: 1px solid white;
   gap: 20px;
 }
