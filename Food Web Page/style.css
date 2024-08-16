@@ -230,15 +230,16 @@ nav {
   color: #565656;
 }
 .main-link a:hover {
-  color: rgb(49, 46, 46);
+  color: rgb(9, 8, 8);
+  font-weight: bold;
 }
 .main-link ul {
   list-style: none;
 }
 
-.main-link {
-}
-.join {
+.inner-foter.join h2 :nth-of-type(2) {
+  font-size: x-large;
+  background-color: red;
 }
 .h2 {
   color: #565656;
@@ -297,5 +298,30 @@ nav {
   .tag-h2 h2 {
     font-size: 20px;
     font-weight: 600;
+  }
+  /* fotter section */
+  .inner-foter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    .foter-log img {
+      width: 100%;
+    }
+    .box {
+      width: 50%;
+      text-align: center;
+    }
+    .main-link {
+      text-align: center;
+    }
+    .join {
+      text-align: center;
+      input {
+        width: 100%;
+      }
+    }
   }
 }
